@@ -1,0 +1,37 @@
+#pokedex-heading{
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  colour : rgb(148, 35, 35) ;
+ 
+
+}
+.outer-pokedex{
+  display: flex;
+flex-direction: column;
+}
+a:visited{
+  text-decoration: dashed;
+}
+.outer-pokedex{
+  align-items: center;
+}
+body , #pokedex-heading {
+  background-image: url('https://thumbs.dreamstime.com/b/pokemon-silhouette-background-vector-cartoon-symbol-art-icon-play-go-sign-concept-ball-pokeball-shape-pokemon-silhouette-142907703.jpg') ;
+  font-family: "Honk", system-ui !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    text-transform: uppercase;
+    background-attachment: fixed;
+    font-size: 60px;
+}
+*{
+  cursor : auto;
+}

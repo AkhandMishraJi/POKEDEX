@@ -1,0 +1,30 @@
+.pokemon{
+    flex-basis: 20%;
+    height: 200px;
+    width: 300px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+text-transform: uppercase;
+margin-top: 2rem;
+}
+
+.pokemon-image {
+    margin-top: 1rem;
+height: 150px;
+    max-height: 80%;
+
+    filter: drop-shadow(0 0 2rem rgb(230, 226, 23));
+}
+.pokemon-name{
+    font-size: larger;
+    letter-spacing: 0.5rem;
+    font-size: xx-large
+}
+.pokemon:hover{
+    background : url('https://wallpapers-clan.com/wp-content/uploads/2023/11/pokemon-pokeball-light-pink-desktop-wallpaper-cover.jpg');
+    height: 210px;
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
